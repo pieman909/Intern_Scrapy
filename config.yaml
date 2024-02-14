@@ -1,0 +1,60 @@
+github:
+  enabled: true
+  repoURL: "https://github.com/pittcsc/Summer2022-Internships"
+linkedIn:
+  enabled: true
+  timespan: "week"
+  queries: 
+    - "software engineer intern"
+    - "backend engineer intern"
+  desiredJobTitles: 
+    - "intern"
+    - "co-op"
+  blacklistJobTitles:
+    - "jr"
+    - "junior"
+    - "sr"
+    - "senior"
+    - "tech lead"
+    - "market"
+    - "sale"
+    - "business"
+    - "mechanical"
+    - "benefit"
+    - "inclusion"
+    - "coordinator"
+    - "clearing"
+    - "electric"
+    - "design"
+    - "client"
+    - "legal"
+    - "tax"
+    - "social"
+    - "process"
+  description:
+    blacklistSubstrings: 
+      - "unpaid"
+    requiredSubstrings: ["interns"]
+  locationsToQuery:
+    - "California"
+    - "Bay Area"
+    - "San Francisco"
+    - "Mountain View"
+    - "Sunnyvale"
+    - "Menlo Park"
+    - "Palo Alto"
+    - "San Mateo"
+    - "Los Angeles"
+    - "Santa Clara"
+    - "Cupertino"
+    - "San Diego"
+    - "San Ramon"
+    - "Irvine"
+    - "Foster City"
+    - "Newark"
+    - "Fremont"
+    - "Berkeley"
+    - "Seattle"
+    - "Bellevue"
+    - "Redmond"
+    - "Kirkland"
